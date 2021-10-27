@@ -1,0 +1,1719 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Store</title>
+
+    <!-- CSS file -->
+    <link rel="stylesheet" href="./css/main.css">
+
+    <!-- Bootstrap file -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="./js/bootstrap.min.js"></script>
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   
+    <!-- Script files -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+    <!-- For Collection Slider -->
+    <script src="./js/glider.js"></script>
+    <link rel="stylesheet" href="./css/glider.css">
+  
+    <!-- For Product Slider -->
+    <link rel="stylesheet" href="./css/new-product-glider.css"> 
+
+
+    <script src="./js/script.js"></script>
+
+
+    <script src="./js/new-product-glider-1.js"></script>
+
+
+    
+
+    
+
+
+
+</head>
+<body>
+    <div class="page-container">
+
+    
+             <!-- Sidebar -->
+
+            <div id="mySidenav" class="sidenav">
+
+                <div class="sidenav-header">
+                    <div class="close-sidenav">
+                        <a href="javascript:void(0)" class="closebtn">
+                            <img src="./img/closeBtn.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                
+
+
+                <div class="sidenav-body">
+                    
+                    <div class="user-navbar d-flex align-items-center">
+                    
+                        <div class="user-login" >
+                            <a href="#">
+                                Login
+                            </a>
+                        </div>
+        
+                        <!-- If user login -->
+                        <div class="user-image" style="display: none;">
+                            <a href="#">
+                                <img src="./img/profile_image.jpg" alt="">
+                            </a>
+                        </div>
+        
+                        <div class="wishlist">
+                            <a href="#">
+                                <img src="./img/wishlistIcon.svg" alt="">
+                            </a>
+                        </div>
+        
+                        <div class="shopping-basket">
+                            <a href="#">
+                                <img src="./img/shoppingIcon.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+    
+                    <div class="navbar-search d-flex justify-content-center">
+                        <span class="search-icon d-flex align-items-center">
+                            <img src="./img/searchIcon.svg" alt="">
+                        </span>
+                        <input type="text" placeholder="Search   products">
+                    </div>
+
+                    <div class="sidenav-category">
+                        <div class="sidenav-category-item text-center">
+                            Home
+                        </div>
+                        <div class="sidenav-category-item text-center">
+                            Products
+                        </div>
+                        <div class="sidenav-category-item text-center">
+                            Blog
+                        </div>
+                        <div class="sidenav-category-item text-center">
+                            About us
+                        </div>
+                        <div class="sidenav-category-item text-center">
+                            Contact
+                        </div>
+                    </div>
+
+                    
+                </div>
+             </div>    
+
+    <!-- Header -->
+    <div id="header">
+        <div class="header-mob">
+
+            <div class="header-logo-mob">
+                <a href="#">
+                    <img src="./img/header_logo.png" alt="">
+                </a>
+            </div>
+
+            <div class="menu-icon" id="menu-icon">
+                <div>
+                    <img src="./img/menuIcon.svg">
+                </div>
+            </div>  
+           
+        </div>
+
+
+        <div class="header-web">
+            <div class="header-logo-web">
+                <a href="#">
+                    <img src="./img/header_logo.png" alt="">
+                </a>
+            </div>
+
+            <div class="category-navbar d-flex">
+                <div class="home-header-category">
+                    <a href="#">
+                        Home
+                    </a>
+                    <span class="active-category d-flex justify-content-center"></span>
+                </div>
+                <div class="products-header-category">
+                    <div class="products-header-category-a">
+                        <a href="#">
+                            Products
+                        </a>
+
+                        <div class="products-category-dropdown">
+                            <div class="dropdown-padding">
+                                <div class="category-column-1">
+                                    <div class="dropdown-title">
+                                        <a href="#">
+                                            Living room
+                                        </a>
+                                    </div>
+                                    <div class="dropdown-category">
+                                        <a href="#">
+                                            Sofas
+                                        </a>
+                                    </div>
+                                    <div class="dropdown-category">
+                                        <a href="#">
+                                            Sectionals
+                                        </a>
+                                    </div>
+                                    <div class="dropdown-category">
+                                        <a href="#">
+                                            Coffee and end tables
+                                        </a>
+                                    </div>
+                                    <div class="dropdown-category">
+                                        <a href="#">
+                                            Tv stands
+                                        </a>
+                                    </div>
+                                    <div class="dropdown-category">
+                                        <a href="#">
+                                            Chairs & seating
+                                        </a>
+                                    </div>
+                                    <div class="dropdown-category">
+                                        <a href="#">
+                                            Ottomans and poufs
+                                        </a>
+                                    </div>
+                                    <div class="dropdown-category">
+                                        <a href="#">
+                                            Bookcases
+                                        </a>
+                                    </div>
+                                    <div class="dropdown-category">
+                                        <a href="#">
+                                            Cabinets and chests
+                                        </a>
+                                    </div>
+                                    <div class="dropdown-category">
+                                        <a href="#">
+                                            Slipcovers
+                                        </a>
+                                    </div>
+                                    <div class="dropdown-category">
+                                        <a href="#">
+                                            Fireplace & stove
+                                        </a>
+                                    </div>
+                                    <div class="dropdown-category">
+                                        <a href="#">
+                                            Console tables
+                                        </a>
+                                    </div>
+                                    <div class="dropdown-category">
+                                        <a href="#">
+                                            Futons & daybeds
+                                        </a>
+                                    </div>
+                                    <div class="dropdown-category">
+                                        <a href="#">
+                                            Loveseats
+                                        </a>
+                                    </div>
+                                </div>
+        
+                                <div class="category-column-2">
+                                    <div class="dropdown-title">
+                                        <a href="#">
+                                            Bedroom
+                                        </a>
+                                    </div>
+                                    <div class="dropdown-category">
+                                        <a href="#">
+                                            Bed and headboards
+                                        </a>
+                                    </div>
+                                    <div class="dropdown-category">
+                                        <a href="#">
+                                            Bedroom sets
+                                        </a>
+                                    </div>
+                                    <div class="dropdown-category">
+                                        <a href="#">
+                                            Dressers & chests
+                                        </a>
+                                    </div>
+                                    <div class="dropdown-category">
+                                        <a href="#">
+                                            Nightstands
+                                        </a>
+                                    </div>
+                                    <div class="dropdown-category">
+                                        <a href="#">
+                                            Daybeds
+                                        </a>
+                                    </div>
+                                    <div class="dropdown-category">
+                                        <a href="#">
+                                            Mattreses & foundations
+                                        </a>
+                                    </div>
+                                    <div class="dropdown-category">
+                                        <a href="#">
+                                            Makeup vanities
+                                        </a>
+                                    </div>
+                                    <div class="dropdown-category">
+                                        <a href="#">
+                                            Vanity stools
+                                        </a>
+                                    </div>
+                                    <div class="dropdown-category">
+                                        <a href="#">
+                                            Armoires & Wardropes
+                                        </a>
+                                    </div>
+                                    <div class="dropdown-category">
+                                        <a href="#">
+                                            Bedroom benches
+                                        </a>
+                                    </div>
+                                    <div class="dropdown-category">
+                                        <a href="#">
+                                            Jewelery armoires
+                                        </a>
+                                    </div>
+                                    <div class="dropdown-category">
+                                        <a href="#">
+                                            Small space bedrooms
+                                        </a>
+                                    </div>                                   
+                                </div>
+        
+                                <div class="category-column-2">
+                                    <div class="dropdown-title">
+                                        <a href="#">
+                                            Kitchen & dining
+                                        </a>
+                                    </div>
+                                    <div class="dropdown-category">
+                                        <a href="#">
+                                            Dining tables & seating
+                                        </a>
+                                    </div> 
+                                    <div class="dropdown-category">
+                                        <a href="#">
+                                            Bar furniture
+                                        </a>
+                                    </div>  
+                                    <div class="dropdown-category">
+                                        <a href="#">
+                                            Kitchen Islands & charts
+                                        </a>
+                                    </div>  
+                                    <div class="dropdown-category">
+                                        <a href="#">
+                                            Display & china cabinets
+                                        </a>
+                                    </div>  
+                                    <div class="dropdown-category">
+                                        <a href="#">
+                                            Baker’s racks
+                                        </a>
+                                    </div>  
+                                    <div class="dropdown-category">
+                                        <a href="#">
+                                            Food pantries
+                                        </a>
+                                    </div>  
+                                    <div class="dropdown-category">
+                                        <a href="#">
+                                            Wine racks
+                                        </a>
+                                    </div>   
+                                    
+                                   
+                                    
+                                   
+                                    
+                                    
+                                   
+                                </div>
+                               
+                            </div>
+                            
+                        </div>
+                        <span class="active-category d-flex justify-content-center"></span>
+                    </div>
+
+
+                </div>
+
+                <div class="blog-header-category">
+                    <div class="blog-header-category-a">
+                        <a href="#">
+                            Blog
+                        </a>
+                    </div>
+                </div>
+
+                <div class="about-header-category">
+                    <div class="about-header-category-a">
+                        <a href="#">
+                            About us
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-header-category">
+                    <div class="contact-header-category-a">
+                        <a href="#">
+                            Contact
+                        </a>
+                    </div>
+                </div>
+    
+    
+                   
+            </div>
+
+            
+
+            <div class="user-navbar d-flex align-items-center">
+                <div class="navbar-search d-flex">
+                    <span class="search-icon d-flex align-items-center">
+                        <img src="./img/searchIcon.svg" alt="">
+                    </span>
+                    <input type="text" placeholder="Search   products">
+                </div>
+
+                <div class="user-login">
+                    <a href="#">
+                        Login
+                    </a>
+                </div>
+
+                <!-- If user login -->
+                <a href="#">
+                    <div class="user-image"   style="display: none;">
+                        <img src="./img/profile_image.jpg" alt="">
+                    </div>
+                </a>
+
+                <div class="wishlist">
+                    <a href="#">
+                        <img src="./img/wishlistIcon.svg" alt="">
+                    </a>
+                </div>
+
+                <div class="shopping-basket">
+                    <a href="#">
+                        <img src="./img/shoppingIcon.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+       
+      
+    </div>
+
+
+    <!-- Body -->
+    <div id="body">
+        <div style="position: relative;">
+            <div class="rotate-1 d-flex"> 
+                <div>
+                    <img src="./img/scrollDownArrow.svg" alt="">
+                </div>
+                <div>
+                    Scroll down 
+                </div>
+            </div>
+        </div>
+
+        <div style="position: relative;">
+            <div class="rotate-2"> 
+                Follow us 
+                <div class="follow-line"></div> 
+                <div class="d-flex rightside-icons align-items-center">
+                    <div class="rightside-fb-icon">
+                        <a href="#">
+                            <div>
+                                <svg width="15" height="12" viewBox="0 0 21 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M19.3335 11.0833L19.3335 8.33333C19.3335 7.11776 18.8506 5.95197 17.9911 5.09243C17.1315 4.23289 15.9657 3.75 14.7502 3.75L12.0002 3.75V1L8.3335 1V3.75L1.00016 3.75V7.41667L8.3335 7.41667V10.1667L12.0002 11.0833L12.0002 7.41667L14.7502 7.41667C14.9933 7.41667 15.2264 7.51324 15.3983 7.68515C15.5703 7.85706 15.6668 8.09022 15.6668 8.33333V11.0833H19.3335Z" stroke="#4F4F4F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="rightside-insta-icon">
+                        <a href="#">
+                            <div class="d-flex align-items-center">
+                                <svg class="static-icon" width="15" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M19.3335 14.5834L19.3335 5.58337C19.3335 3.09809 17.3188 1.08337 14.8335 1.08337L5.8335 1.08337C3.34822 1.08337 1.3335 3.09809 1.3335 5.58337L1.3335 14.5834C1.3335 17.0687 3.34822 19.0834 5.8335 19.0834L14.8335 19.0834C17.3188 19.0834 19.3335 17.0687 19.3335 14.5834Z" stroke="#4F4F4F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M10.9007 13.6834C10.1517 13.7945 9.38672 13.6666 8.7146 13.3178C8.04248 12.9691 7.49744 12.4173 7.15701 11.7409C6.81657 11.0645 6.69808 10.298 6.81837 9.55043C6.93867 8.80283 7.29164 8.1122 7.82707 7.57677C8.3625 7.04134 9.05313 6.68838 9.80072 6.56808C10.5483 6.44778 11.3148 6.56628 11.9912 6.90671C12.6675 7.24715 13.2193 7.79219 13.5681 8.4643C13.9168 9.13642 14.0448 9.9014 13.9337 10.6504C13.8204 11.4144 13.4644 12.1218 12.9182 12.6679C12.3721 13.2141 11.6647 13.5701 10.9007 13.6834Z" stroke="#4F4F4F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M15.2837 15.0334V15.0424" stroke="#4F4F4F" stroke-width="2.66667" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <svg class="hover-icon" width="15" height="20" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M18.3335 13.5834L18.3335 4.58337C18.3335 2.09809 16.3188 0.083374 13.8335 0.083374L4.8335 0.083374C2.34822 0.083374 0.333496 2.09809 0.333496 4.58337L0.333496 13.5834C0.333496 16.0687 2.34822 18.0834 4.8335 18.0834L13.8335 18.0834C16.3188 18.0834 18.3335 16.0687 18.3335 13.5834Z" fill="#5C5C5C"/>
+                                    <path d="M9.90071 12.6834C9.15169 12.7945 8.38672 12.6666 7.7146 12.3178C7.04248 11.9691 6.49744 11.4173 6.15701 10.7409C5.81657 10.0645 5.69808 9.29802 5.81837 8.55043C5.93867 7.80283 6.29164 7.1122 6.82707 6.57677C7.3625 6.04134 8.05313 5.68838 8.80072 5.56808C9.54832 5.44778 10.3148 5.56628 10.9912 5.90671C11.6675 6.24715 12.2193 6.79219 12.5681 7.4643C12.9168 8.13642 13.0448 8.9014 12.9337 9.65042C12.8204 10.4144 12.4644 11.1218 11.9182 11.6679C11.3721 12.2141 10.6647 12.5701 9.90071 12.6834Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M14.2837 14.0334V14.0424" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            
+                        </a>
+                    </div>
+                    <div class="rightside-twit-icon">
+                        <a href="#">
+                            <div>
+                                <svg width="15" fill="none" height="24" viewBox="0 0 21 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M19.3234 23.1524C18.6458 22.1918 18.1276 21.1282 17.7886 20.0026C18.4833 19.3984 18.9756 18.5955 19.1991 17.7024C19.4226 16.8093 19.3663 15.8691 19.0381 15.009C18.7098 14.1489 18.1253 13.4104 17.3636 12.8933C16.6019 12.3762 15.6997 12.1056 14.7792 12.1179H13.7761C13.7303 10.355 14.1213 8.60819 14.9142 7.033C15.707 5.4578 16.8771 4.10314 18.3203 3.08965C18.3203 3.08965 9.29202 -0.922903 5.27947 8.10534C3.87711 6.03941 3.17395 3.57834 3.27319 1.08337C-1.7425 10.1116 3.27319 21.1461 14.8093 21.1461C15.0887 21.1452 15.3674 21.1184 15.6419 21.0659C16.6516 22.0897 17.9263 22.8122 19.3234 23.1524V23.1524Z" stroke="#4F4F4F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>   
+                            </div>               
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+
+        <div class="collection-part">
+            <div class="page">
+                <header>
+                    <div id="Glide" class="glide">
+                        
+                        <!-- CAROUSEL -->
+                        <div class="glide__wrapper">
+                        <ul class="glide__track">
+                            <li class="glide__slide glide-slide-1">
+                                <div class="card-image">
+                                    <div class="product-text-slide">
+                                        <div class="product-name">
+                                            Single 
+                                            Seater Sofa
+                                        </div>
+                                        <div class="product-info">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur penatibus leo feugiat sollicitudin nam arcu.                                        
+                                        </div>
+
+                                        <div class="collection-buy-btn">
+                                            <a href="#">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="collection-buy-text">
+                                                        Buy now
+                                                    </div>
+                                                    <img src="./img/buyNowArrow.svg" alt="" class="arrow-green">
+                                                    <img src="./img/buyNowArrowYellow.svg" alt="" class="arrow-yellow">
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                    </div>
+                                    
+                                    <div class="product-imgs">
+                                       
+                                       
+                                        <div class="main-product-img">
+                                            <img src="./img/collection-img1.svg" alt="img" class="main-product-1">
+                                            <div class="add-to-card-part">
+                                                <div class="add-to-card d-flex align-items-center">
+                                                    <div class="add d-flex justify-content-center align-items-center"> 
+                                                        <div class="plus-icon">
+                                                            +
+                                                        </div>
+                                                    </div>
+                                                    <div class="add-text">Add to card</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="other-product-imgs d-flex align-items-center">
+                                            <div class="discover-text">
+                                                Discover
+                                            </div>
+                                            <div class="discover-line">
+
+                                            </div>
+                                            <div class="other-product-img">
+                                                <img src="./img/collection-img2.svg" alt="" class="other-product-1 other-product-1-1">
+                                            </div>
+                                            <div class="other-product-img">
+                                                <img src="./img/collection-img3.svg" alt="" class="other-product-1">
+                                            </div>
+                                            <div class="other-product-img">
+                                                <img src="./img/collection-img4.svg" alt="" class="other-product-1">
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                    
+                                    
+                                </div>  
+                            </li>
+                            <li class="glide__slide glide-slide-2">
+                                <div class="card-image">
+                                    <div class="product-text-slide">
+                                        <div class="product-name">
+                                            Single 
+                                            Seater Sofa
+                                        </div>
+                                        <div class="product-info">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur penatibus leo feugiat sollicitudin nam arcu.                                        
+                                        </div>
+
+                                        <div class="collection-buy-btn">
+                                            <a href="#">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="collection-buy-text">
+                                                        Buy now
+                                                    </div>
+                                                    <img src="./img/buyNowArrow.svg" alt="" class="arrow-green">
+                                                    <img src="./img/buyNowArrowYellow.svg" alt="" class="arrow-yellow">
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                    </div>
+                                    
+                                    <div class="product-imgs">
+                                       
+                                        <div class="main-product-img">
+                                            <img src="./img/collection-img1-red.svg" alt="img"  class="main-product-2">
+                                            <div class="add-to-card-part">
+                                                <div class="add-to-card d-flex align-items-center">
+                                                    <div class="add d-flex justify-content-center align-items-center"> 
+                                                        <div class="plus-icon">
+                                                            +
+                                                        </div>
+                                                    </div>
+                                                    <div class="add-text">Add to card</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="other-product-imgs d-flex align-items-center">
+                                            <div class="discover-text">
+                                                Discover
+                                            </div>
+                                            <div class="discover-line">
+
+                                            </div>
+                                            <div class="other-product-img">
+                                                <img src="./img/collection-img2-red.svg" alt="" class="other-product-2 other-product-2-1">
+                                            </div>
+                                            <div class="other-product-img">
+                                                <img src="./img/collection-img3-red.svg" alt="" class="other-product-2">
+                                            </div>
+                                            <div class="other-product-img">
+                                                <img src="./img/collection-img4-red.svg" alt="" class="other-product-2">
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                    
+                                    
+                                </div>  
+                            </li>
+                            <li class="glide__slide glide-slide-3">
+                                <div class="card-image">
+                                    <div class="product-text-slide">
+                                        <div class="product-name">
+                                            Single 
+                                            Seater Sofa
+                                        </div>
+                                        <div class="product-info">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur penatibus leo feugiat sollicitudin nam arcu.                                        
+                                        </div>
+
+                                        <div class="collection-buy-btn">
+                                            <a href="#">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="collection-buy-text">
+                                                        Buy now
+                                                    </div>
+                                                    <img src="./img/buyNowArrow.svg" alt="" class="arrow-green">
+                                                    <img src="./img/buyNowArrowYellow.svg" alt="" class="arrow-yellow">
+                                                </div>
+                                            </a>
+                                        </div>
+                                    
+                                    </div>
+                                    
+                                    <div class="product-imgs">
+                                       
+                                        <div class="main-product-img">
+                                            <img src="./img/collection-img1-gray.svg" alt="img"  class="main-product-3">
+                                            <div class="add-to-card-part">
+                                                <div class="add-to-card d-flex align-items-center">
+                                                    <div class="add d-flex justify-content-center align-items-center"> 
+                                                        <div class="plus-icon">
+                                                            +
+                                                        </div>
+                                                    </div>
+                                                    <div class="add-text">Add to card</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="other-product-imgs d-flex align-items-center">
+                                            <div class="discover-text">
+                                                Discover
+                                            </div>
+                                            <div class="discover-line">
+
+                                            </div>
+                                            <div class="other-product-img">
+                                                <img src="./img/collection-img2-gray.svg" alt="" class="other-product-3 other-product-3-1">
+                                            </div>
+                                            <div class="other-product-img">
+                                                <img src="./img/collection-img3-gray.svg" alt="" class="other-product-3">
+                                            </div>
+                                            <div class="other-product-img">
+                                                <img src="./img/collection-img4-gray.svg" alt="" class="other-product-3">
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                    
+                                    
+                                </div>  
+                            </li>
+                            
+                        </ul>
+                        </div>
+                        <!-- CAROUSEL DOTS -->
+                        <div class="glide__bullets"></div>
+                    </div>
+                </header>
+            </div>
+
+            
+        </div>
+       
+
+        <div class="new-products-part">
+
+            <main class="main">
+                <div class="slider-container">
+                  <div class="glider-contain">
+                      <div class="new-products-slider d-flex justify-content-center align-items-center">
+                        <span role="button" aria-label="Previous" class="glider-prev ">
+                            <img src="./img/newProductLeft.svg" alt="" class="new-product-prev">
+                        </span>
+
+                        <div class="new-products-text">
+                            New products
+                        </div>
+
+                        <span role="button" aria-label="Next" class="glider-next">
+                            <img src="./img/newProductRight.svg" alt="" class="new-product-next">
+                        </span>
+                      </div>
+                    
+                    <div class="glider glider-1">
+                        <div class="card-image new-product-item flex-item clearfix">
+                            <div class="new-product-info">
+                                <div class="product-name">
+                                    Modern yellow
+                                    chair
+                                </div>
+                                <div class="product-price d-flex">
+                                    <div>$</div> 
+                                    <div class="price-number">
+                                        65
+                                    </div>
+                                </div>
+                                <a href="#">
+                                    <div class="product-buy d-flex align-items-center">
+                                        <div class="product-buy-text">
+                                            Buy now
+                                        </div>
+                                        <img src="./img/newProductBuyLine.svg" alt="" class="new-product-black">
+                                        <img src="./img/newProductBuyLineGreen.svg" alt="" class="new-product-green">
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="new-product-img">
+                                <img src="./img/newProductImg1.svg">
+                            </div>
+                        </div>
+
+
+                        <div class="card-image new-product-item flex-item clearfix">
+                            <div class="new-product-info">
+                                <div class="product-name">
+                                    Modern light
+                                    armchair
+                                </div>
+                                <div class="product-price d-flex">
+                                    <div>$</div> 
+                                    <div class="price-number">
+                                        65
+                                    </div>
+                                </div>
+                                <a href="#">
+                                    <div class="product-buy d-flex align-items-center">
+                                        <div class="product-buy-text">
+                                            Buy now
+                                        </div>
+                                        <img src="./img/newProductBuyLine.svg" alt="" class="new-product-black">
+                                        <img src="./img/newProductBuyLineGreen.svg" alt="" class="new-product-green">
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="new-product-img">
+                                <img src="./img/newProductImg2.svg">
+                            </div>
+                        </div>
+
+
+                        <div class="card-image new-product-item flex-item clearfix">
+                            <div class="new-product-info">
+                                <div class="product-name">
+                                    Modern yellow
+                                    chair
+                                </div>
+                                <div class="product-price d-flex">
+                                    <div
+                                        ><span>&#36;</span>
+                                    </div> 
+                                    <div class="price-number">
+                                        65
+                                    </div>
+                                </div>
+                                <a href="#">
+                                    <div class="product-buy d-flex align-items-center">
+                                        <div class="product-buy-text">
+                                            Buy now
+                                        </div>
+                                        <img src="./img/newProductBuyLine.svg" alt="" class="new-product-black">
+                                        <img src="./img/newProductBuyLineGreen.svg" alt="" class="new-product-green">
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="new-product-img">
+                                <img src="./img/newProductImg1.svg">
+                            </div>
+                        </div>
+
+
+                        <div class="card-image new-product-item flex-item clearfix">
+                            <div class="new-product-info">
+                                <div class="product-name">
+                                    Modern light
+                                    armchair
+                                </div>
+                                <div class="product-price d-flex">
+                                    <div>$</div> 
+                                    <div class="price-number">
+                                        65
+                                    </div>
+                                </div>
+                                <a href="#">
+                                    <div class="product-buy d-flex align-items-center">
+                                        <div class="product-buy-text">
+                                            Buy now
+                                        </div>
+                                        <img src="./img/newProductBuyLine.svg" alt="" class="new-product-black">
+                                        <img src="./img/newProductBuyLineGreen.svg" alt="" class="new-product-green">
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="new-product-img">
+                                <img src="./img/newProductImg2.svg">
+                            </div>
+                        </div>
+
+
+                        <div class="card-image new-product-item flex-item clearfix">
+                            <div class="new-product-info">
+                                <div class="product-name">
+                                    Modern yellow
+                                    chair
+                                </div>
+                                <div class="product-price d-flex">
+                                    <div>$</div> 
+                                    <div class="price-number">
+                                        65
+                                    </div>
+                                </div>
+                                <a href="#">
+                                    <div class="product-buy d-flex align-items-center">
+                                        <div class="product-buy-text">
+                                            Buy now
+                                        </div>
+                                        <img src="./img/newProductBuyLine.svg" alt="" class="new-product-black">
+                                        <img src="./img/newProductBuyLineGreen.svg" alt="" class="new-product-green">
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="new-product-img">
+                                <img src="./img/newProductImg1.svg">
+                            </div>
+                        </div>
+
+
+                        <div class="card-image new-product-item flex-item clearfix">
+                            <div class="new-product-info">
+                                <div class="product-name">
+                                    Modern light
+                                    armchair
+                                </div>
+                                <div class="product-price d-flex">
+                                    <div>$</div> 
+                                    <div class="price-number">
+                                        65
+                                    </div>
+                                </div>
+                                <a href="#">
+                                    <div class="product-buy d-flex align-items-center">
+                                        <div class="product-buy-text">
+                                            Buy now
+                                        </div>
+                                        <img src="./img/newProductBuyLine.svg" alt="" class="new-product-black">
+                                        <img src="./img/newProductBuyLineGreen.svg" alt="" class="new-product-green">
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="new-product-img">
+                                <img src="./img/newProductImg2.svg">
+                            </div>
+                        </div>
+
+                        <div class="card-image new-product-item flex-item clearfix">
+                            <div class="new-product-info">
+                                <div class="product-name">
+                                    Modern light
+                                    armchair
+                                </div>
+                                <div class="product-price d-flex">
+                                    <div>$</div> 
+                                    <div class="price-number">
+                                        65
+                                    </div>
+                                </div>
+                                <a href="#">
+                                    <div class="product-buy d-flex align-items-center">
+                                        <div class="product-buy-text">
+                                            Buy now
+                                        </div>
+                                        <img src="./img/newProductBuyLine.svg" alt="" class="new-product-black">
+                                        <img src="./img/newProductBuyLineGreen.svg" alt="" class="new-product-green">
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="new-product-img">
+                                <img src="./img/newProductImg2.svg">
+                            </div>
+                        </div>
+
+                        <div class="card-image new-product-item flex-item clearfix">
+                            <div class="new-product-info">
+                                <div class="product-name">
+                                    Modern light
+                                    armchair
+                                </div>
+                                <div class="product-price d-flex">
+                                    <div>$</div> 
+                                    <div class="price-number">
+                                        65
+                                    </div>
+                                </div>
+                                <a href="#">
+                                    <div class="product-buy d-flex align-items-center">
+                                        <div class="product-buy-text">
+                                            Buy now
+                                        </div>
+                                        <img src="./img/newProductBuyLine.svg" alt="" class="new-product-black">
+                                        <img src="./img/newProductBuyLineGreen.svg" alt="" class="new-product-green">
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="new-product-img">
+                                <img src="./img/newProductImg2.svg">
+                            </div>
+                        </div>
+
+                        <div class="card-image new-product-item flex-item clearfix">
+                            <div class="new-product-info">
+                                <div class="product-name">
+                                    Modern light
+                                    armchair
+                                </div>
+                                <div class="product-price d-flex">
+                                    <div>$</div> 
+                                    <div class="price-number">
+                                        65
+                                    </div>
+                                </div>
+                                <a href="#">
+                                    <div class="product-buy d-flex align-items-center">
+                                        <div class="product-buy-text">
+                                            Buy now
+                                        </div>
+                                        <img src="./img/newProductBuyLine.svg" alt="" class="new-product-black">
+                                        <img src="./img/newProductBuyLineGreen.svg" alt="" class="new-product-green">
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="new-product-img">
+                                <img src="./img/newProductImg2.svg">
+                            </div>
+                        </div>
+
+                        <div class="card-image new-product-item flex-item clearfix">
+                            <div class="new-product-info">
+                                <div class="product-name">
+                                    Modern light
+                                    armchair
+                                </div>
+                                <div class="product-price d-flex">
+                                    <div>$</div> 
+                                    <div class="price-number">
+                                        65
+                                    </div>
+                                </div>
+                                <a href="#">
+                                    <div class="product-buy d-flex align-items-center">
+                                        <div class="product-buy-text">
+                                            Buy now
+                                        </div>
+                                        <img src="./img/newProductBuyLine.svg" alt="" class="new-product-black">
+                                        <img src="./img/newProductBuyLineGreen.svg" alt="" class="new-product-green">
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="new-product-img">
+                                <img src="./img/newProductImg2.svg">
+                            </div>
+                        </div>
+
+                        <div class="card-image new-product-item flex-item clearfix">
+                            <div class="new-product-info">
+                                <div class="product-name">
+                                    Modern light
+                                    armchair
+                                </div>
+                                <div class="product-price d-flex">
+                                    <div>$</div> 
+                                    <div class="price-number">
+                                        65
+                                    </div>
+                                </div>
+                                <a href="#">
+                                    <div class="product-buy d-flex align-items-center">
+                                        <div class="product-buy-text">
+                                            Buy now
+                                        </div>
+                                        <img src="./img/newProductBuyLine.svg" alt="" class="new-product-black">
+                                        <img src="./img/newProductBuyLineGreen.svg" alt="" class="new-product-green">
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="new-product-img">
+                                <img src="./img/newProductImg2.svg">
+                            </div>
+                        </div>
+
+                        
+
+                       
+                    </div>
+                    
+                  </div>
+                </div>
+              </main>
+        </div>
+       
+        <div class="opportunity-part">
+            <div class="opportunity-text text-center">
+                Deal of the day
+            </div>
+            <div class="opportunity-product d-flex justify-content-center">
+                <div class="opportunity-product-info">
+                    <div class="packet-part">
+                        <div class="opportunity-packet">
+                            <div class="packet-text">
+                                Sale
+                            </div>
+                            <div class="sale-pasket">
+                                <img src="./img/salePacket.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="product-name">
+                            Stylish armchair
+                        </div>
+                        <div class="product-price d-flex align-items-center">
+                            <div class="prev-price d-flex">
+                                <div>$</div>
+                                <div class="prev-price-number">
+                                    400
+                                </div>
+                            </div>
+                            <div class="current-price d-flex">
+                                <div>$</div>
+                                <div class="current-price-number">
+                                    300
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Metus neque odio enim accumsan non a commodo. Est mi ut lacinia nulla dictum id elementum.
+                        </div>
+                        <a href="#">
+                            <div class="buy-now d-flex align-items-center">
+                                <div class="buy-now-text">
+                                    Buy now
+                                </div>
+                                <img src="./img/buyNowArrow.svg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="deadline-boxes">
+                        <div class="d-flex justify-content-center">
+                            <div class="deadline-box">
+                                <div class="days text-center">
+                                    000
+                                </div>
+                                <div class="days-text text-center">
+                                    days
+                                </div>
+                            </div>
+                            <div class="deadline-box">
+                                <div class="hours text-center">
+                                    00
+                                </div>
+                                <div class="hours-text text-center">
+                                    hours
+                                </div>
+                            </div>
+                            <div class="deadline-box text-center">
+                                <div class="minutes">
+                                    00
+                                </div>
+                                <div class="minutes-text text-center">
+                                    minutes
+                                </div>
+                            </div>
+                            <div class="deadline-box">
+                                <div class="seconds text-center">
+                                    00
+                                </div>
+                                <div class="seconds-text text-center">
+                                    seconds
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="opportunity-product-img">
+                    <img src="./img/opportunityImg.svg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="trending-products-part">
+
+            <div class="main">
+                <div class="slider-container">
+                  <div class="glider-contain">
+                      <div class="products-slider d-flex justify-content-center align-items-center">
+                
+                        <div class="trend-products-text">
+                            Trending products
+                        </div>
+
+                      </div>
+                    
+                    <div class="glider glider-2">
+                        <div class="card-image trend-product-item flex-item clearfix">
+                            <a href="#">
+                                <div class="d-flex align-items-center flex-column">
+                                    <div class="product-img d-flex justify-content-center align-items-center">
+                                        <div class="product-img-item">
+                                            <img src="./img/trendProductImg1.svg">
+                                        </div>
+                                    </div>
+                                    <div class="trend-product-info">
+                                        <div class="product-name text-center">
+                                            Mini LCW Chair
+                                        </div>
+                                        <div class="trend-product-price d-flex justify-content-center">
+                                            <div>$</div>
+                                            <div class="price-number">
+                                                300
+                                            </div>
+                                        </div>                                
+                                    </div>
+                                </div>
+                            </a>  
+                        </div>
+
+                        <div class="card-image trend-product-item flex-item clearfix">
+                            <a href="#">
+                                <div class="d-flex align-items-center flex-column">
+                                    <div class="product-img d-flex justify-content-center align-items-center">
+                                        <div class="product-img-item">
+                                            <img src="./img/trendProductImg2.svg">
+                                        </div>
+                                    </div>
+                                    <div class="trend-product-info">
+                                        <div class="product-name text-center">
+                                            Mini LCW Chair
+                                        </div>
+                                        <div class="trend-product-price d-flex justify-content-center">
+                                            <div>$</div>
+                                            <div class="price-number">
+                                                300
+                                            </div>
+                                        </div>                               
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="card-image trend-product-item flex-item clearfix">
+                            <a href="#">
+                                <div class="d-flex align-items-center flex-column">
+                                    <div class="product-img d-flex justify-content-center align-items-center">
+                                        <div class="product-img-item">
+                                            <img src="./img/trendProductImg3.svg">
+                                        </div>
+                                    </div>
+                                    <div class="trend-product-info">
+                                        <div class="product-name text-center">
+                                            Mini LCW Chair
+                                        </div>
+                                        <div class="trend-product-price d-flex justify-content-center">
+                                            <div>$</div>
+                                            <div class="price-number">
+                                                300
+                                            </div>
+                                        </div>                                
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="card-image trend-product-item flex-item clearfix">
+                            <a href="#">
+                                <div class="d-flex align-items-center flex-column">
+                                    <div class="product-img d-flex justify-content-center align-items-center">
+                                        <div class="product-img-item">
+                                            <img src="./img/trendProductImg4.svg">
+                                        </div>
+                                    </div>
+                                    <div class="trend-product-info">
+                                        <div class="product-name text-center">
+                                            Mini LCW Chair
+                                        </div>
+                                        <div class="trend-product-price d-flex justify-content-center">
+                                            <div>$</div>
+                                            <div class="price-number">
+                                                300
+                                            </div>
+                                        </div>                                  
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="card-image trend-product-item flex-item clearfix">
+                            <a href="#">
+                                <div class="d-flex align-items-center flex-column">
+                                    <div class="product-img d-flex justify-content-center align-items-center">
+                                        <div class="product-img-item">
+                                            <img src="./img/trendProductImg5.svg">
+                                        </div>
+                                    </div>
+                                    <div class="trend-product-info">
+                                        <div class="product-name text-center">
+                                            Mini LCW Chair
+                                        </div>
+                                        <div class="trend-product-price d-flex justify-content-center">
+                                            <div>$</div>
+                                            <div class="price-number">
+                                                300
+                                            </div>
+                                        </div>                                  
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="card-image trend-product-item flex-item clearfix">
+                            <a href="#">
+                                <div class="d-flex align-items-center flex-column">
+                                    <div class="product-img d-flex justify-content-center align-items-center">
+                                        <div class="product-img-item">
+                                            <img src="./img/trendProductImg1.svg">
+                                        </div>
+                                    </div>
+                                    <div class="trend-product-info">
+                                        <div class="product-name text-center">
+                                            Mini LCW Chair
+                                        </div>
+                                        <div class="trend-product-price d-flex justify-content-center">
+                                            <div>$</div>
+                                            <div class="price-number">
+                                                300
+                                            </div>
+                                        </div>                                
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="card-image trend-product-item flex-item clearfix">
+                            <a href="#">
+                                <div class="d-flex align-items-center flex-column">
+                                    <div class="product-img d-flex justify-content-center align-items-center">
+                                        <div class="product-img-item">
+                                            <img src="./img/trendProductImg2.svg">
+                                        </div>
+                                    </div>
+                                    <div class="trend-product-info">
+                                        <div class="product-name text-center">
+                                            Mini LCW Chair
+                                        </div>
+                                        <div class="trend-product-price d-flex justify-content-center">
+                                            <div>$</div>
+                                            <div class="price-number">
+                                                300
+                                            </div>
+                                        </div>                               
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                       
+                    </div>
+                    
+                  </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="blog-part">
+            <div class="main-blog-img">
+                <img src="./img/mainBlogImg.svg" alt="">
+            </div>
+            <div class="main-blog-info">
+                <div class="main-blog-title">
+                    Living room furniture
+                </div>
+                <div class="main-blog-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla praesent vel ac nec sit vitae cras odio nunc. Quisque morbi egestas facilisi enim amet id libero consequat pellentesque. Vitae nulla volutpat auctor tristique congue ligula sit habitant facilisi. Hac nulla neque, commodo nulla.
+                </div>
+                <a href="#">
+                    <div class="see-details d-flex align-items-center">
+                        <div class="see-details-text">
+                            See details
+                        </div>
+                        <img src="./img/seeDetailsArrow.svg" alt="">
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="latest-blogs-part">
+
+            <main class="main">
+                <div class="slider-container">
+                  <div class="glider-contain">
+                    <div class="products-slider d-flex justify-content-center align-items-center">
+                        <div class="latest-blog-text text-center">
+                            Latest Blog
+                        </div>
+                    </div>
+                    
+                    <div class="glider glider-3">
+                        <div class="card-image latest-blog-item flex-item clearfix">
+                            <div class="latest-blog-img">
+                                <img src="./img/latestBlogImg.svg">
+                            </div>
+                            <div class="blog-info">
+                                <div class="blog-info-1 d-flex justify-content-between">
+                                    <div class="blog-author d-flex align-items-center align-self-start">
+                                        <img src="./img/authorIcon.svg" alt="" class="author-icon">
+                                        <div class="blog-author-text">
+                                            SaberAli
+                                        </div>
+                                    </div>
+                                    <div class="written-moment d-flex align-items-center align-self-end">
+                                        <img src="./img/momentIcon.svg" alt="" class="moment-icon">
+                                        <div class="written-moment-date">
+                                            21 August,2020
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="blog-name">
+                                    Top esssential Trends in 2021
+                                </div>
+                                <div class="blog-text">
+                                    More off this less hello samlande lied much
+                                    over tightly circa horse taped mightly
+                                </div>
+                                <a href="#">
+                                    <div class="read-more d-flex align-items-center">
+                                        <div class="read-more-text">
+                                            Read More
+                                        </div>
+                                        <img src="./img/readMoreArrow.svg" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="card-image latest-blog-item flex-item clearfix">
+                            <div class="latest-blog-img">
+                                <img src="./img/latestBlogImg.svg">
+                            </div>
+                            <div class="blog-info">
+                                <div class="blog-info-1 d-flex justify-content-between">
+                                    <div class="blog-author d-flex align-items-center align-self-start">
+                                        <img src="./img/authorIcon.svg" alt="" class="author-icon">
+                                        <div class="blog-author-text">
+                                            SaberAli
+                                        </div>
+                                    </div>
+                                    <div class="written-moment d-flex align-items-center align-self-end">
+                                        <img src="./img/momentIcon.svg" alt="" class="moment-icon">
+                                        <div class="written-moment-date">
+                                            21 August,2020
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="blog-name">
+                                    Top esssential Trends in 2021
+                                </div>
+                                <div class="blog-text">
+                                    More off this less hello samlande lied much
+                                    over tightly circa horse taped mightly
+                                </div>
+                                <a href="#">
+                                    <div class="read-more d-flex align-items-center">
+                                        <div class="read-more-text">
+                                            Read More
+                                        </div>
+                                        <img src="./img/readMoreArrow.svg" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="card-image latest-blog-item flex-item clearfix">
+                            <div class="latest-blog-img">
+                                <img src="./img/latestBlogImg.svg">
+                            </div>
+                            <div class="blog-info">
+                                <div class="blog-info-1 d-flex justify-content-between">
+                                    <div class="blog-author d-flex align-items-center align-self-start">
+                                        <img src="./img/authorIcon.svg" alt="" class="author-icon">
+                                        <div class="blog-author-text">
+                                            SaberAli
+                                        </div>
+                                    </div>
+                                    <div class="written-moment d-flex align-items-center align-self-end">
+                                        <img src="./img/momentIcon.svg" alt="" class="moment-icon">
+                                        <div class="written-moment-date">
+                                            21 August,2020
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="blog-name">
+                                    Top esssential Trends in 2021
+                                </div>
+                                <div class="blog-text">
+                                    More off this less hello samlande lied much
+                                    over tightly circa horse taped mightly
+                                </div>
+                                <a href="#">
+                                    <div class="read-more d-flex align-items-center">
+                                        <div class="read-more-text">
+                                            Read More
+                                        </div>
+                                        <img src="./img/readMoreArrow.svg" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="card-image latest-blog-item flex-item clearfix">
+                            <div class="latest-blog-img">
+                                <img src="./img/latestBlogImg.svg">
+                            </div>
+                            <div class="blog-info">
+                                <div class="blog-info-1 d-flex justify-content-between">
+                                    <div class="blog-author d-flex align-items-center align-self-start">
+                                        <img src="./img/authorIcon.svg" alt="" class="author-icon">
+                                        <div class="blog-author-text">
+                                            SaberAli
+                                        </div>
+                                    </div>
+                                    <div class="written-moment d-flex align-items-center align-self-end">
+                                        <img src="./img/momentIcon.svg" alt="" class="moment-icon">
+                                        <div class="written-moment-date">
+                                            21 August,2020
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="blog-name">
+                                    Top esssential Trends in 2021
+                                </div>
+                                <div class="blog-text">
+                                    More off this less hello samlande lied much
+                                    over tightly circa horse taped mightly
+                                </div>
+                                <a href="#">
+                                    <div class="read-more d-flex align-items-center">
+                                        <div class="read-more-text">
+                                            Read More
+                                        </div>
+                                        <img src="./img/readMoreArrow.svg" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+
+
+                        
+
+
+
+
+                       
+
+                       
+                    </div>
+                    
+                  </div>
+                </div>
+              </main>
+        </div>
+       
+       
+
+        <!-- Footer -->
+        <div class="footer">
+            <div class="footer-row1 lang-part d-flex justify-content-end">
+                <div class="en-lang">
+                    <a href="#" class="active-lang">
+                        En
+                    </a>
+                </div>
+                <div class="az-lang">
+                    <a href="#">
+                        Az
+                    </a>
+                </div>
+                <div class="ru-lang">
+                    <a href="#">
+                        Ru
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-row2">
+                
+
+                <div class="footer-col1">
+                    
+                    <div class="footer-logo">
+                        <img src="./img/header_logo.png" alt="">
+                    </div>
+
+                    <div class="col1-tablet">
+                        <div class="footer-col1-title">
+                            Subscribe to our newsletter
+                        </div>
+                        <div class="subscribe">
+                            <div class="enter-mail d-flex align-items-center justify-content-between">
+                                <input class="mail-text" placeholder="Email adress">
+                                <a href="#">
+                                    <div class="enter-mail-btn d-flex align-items-center justify-content-center">
+                                        <i class="fas fa-chevron-right"></i>
+                                    </div>
+                                </a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="footer-col2">
+                    <div class="footer-col2-title">
+                        Help & Support
+                    </div>
+                    <div class="footer-col2-category">
+                        <div>
+                            <a href="#">
+                                Shipping Info
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                Refunds
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                How to Order
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                How to Track
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                Size Guides
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-col3">
+                    <div class="footer-col3-title">
+                        Company Info
+                    </div>
+                    <div class="footer-col3-category">
+                        <div>
+                            <a href="#">
+                                About Us
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                Affliate
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                Fashion Blogger
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+               
+                <div class="footer-col4">
+                    <div class="footer-col4-title">
+                        Customer Care
+                    </div>
+                    <div class="footer-col4-category">
+                        <div>
+                            <a href="#">
+                                Contact Us
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                Payment Methods
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                Bonus Point
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+
+
+
+            <div class="footer-row3 d-flex justify-content-center social-media align-items-center">
+                <div class="footer-fb-icon">
+                    <a href="#">
+                        <div class="d-flex">
+                            <img src="./img/footerFbIcon.svg" alt="" class="static-footer-icon">
+                            <img src="./img/footerFbHoverIcon.svg" alt="" class="hover-footer-icon">
+                        </div>
+                    </a>
+                </div>
+                <div class="footer-insta-icon">
+                    <a href="#">
+                        <div class="d-flex">
+                            <img src="./img/footerInstaIcon.svg" alt="" class="static-footer-icon">
+                            <img src="./img/footerInstaHoverIcon.svg" alt="" class="hover-footer-icon">
+                        </div>
+                    </a>
+                </div>
+                <div class="footer-twit-icon">
+                    <a href="#">
+                        <div class="d-flex">
+                            <img src="./img/footerTwitIcon.svg" alt="" class="static-footer-icon">
+                            <img src="./img/footerTwitHoverIcon.svg" alt="" class="hover-footer-icon">
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-row4 d-flex align-items-center">
+                <div class="copyright-text-1">
+                    All rights Reserved
+                </div>
+
+                <div>
+                    <i class="far fa-copyright"></i>
+                </div>
+
+                <div class="copyright-text-2">
+                    <a href="#">
+                        name
+                    </a>
+                    , 2021
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+    <script>
+
+        $("#Glide").glide({
+        type: "carousel",
+        autoplay: '4000'
+        });
+
+    </script>
+
+
+    <script src="./js/new-product-glider-2.js"></script>
+
+    <script src="./js/sidebar.js"></script>
+
+</body>
+</html>
